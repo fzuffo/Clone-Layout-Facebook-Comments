@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+header {
+  background: #4a90e2;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 980px;
+  font-size: 14px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  
+}
+
+nav .account_circle {
+  margin-left: 8px;
+}
+
+.postlist {
+  width: 700px;
+  margin: 0 auto 20px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  box-sizing: border-box;
+}
+
+.post {
+  margin-top: 20px;
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+  color: #3e3e3e;
+  line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.postheader {
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  height: 30px;
+  width: 200px;
+  margin-left: 10px;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4a4a4a;
+}
+
+.date {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9a9a9a;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.post-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #3e3e3e;
+  margin-top: 20px;
+}
+
+.divisor {
+  width: 100%;
+  height: 1px;
+  margin-top: 20px;
+  background: #eeeeee;
+}
+
+.postcomments {
+  
+}
+
+.comment {
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.comment p {
+  border-radius: 20px;
+  background: #eeeeee;
+  margin-left: 10px;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.comment span {
+  font-weight: bold;
+  padding-right: 5px;
+}
