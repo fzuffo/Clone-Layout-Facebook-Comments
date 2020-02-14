@@ -70,9 +70,3 @@ posts.map(post => <Post key={post.id} data={post} />)
 data.comments.map(comment => <Comment key={comment.id} data={comment} />)
 ```
 
-## Entrega
-
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do código do desafio aqui: https://github.com/Rocketseat/bootcamp-gostack-desafio-04
-
-
-“Sucesso não é o resultado de um jogo, mas o destino de uma jornada”!
